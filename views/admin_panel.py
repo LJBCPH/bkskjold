@@ -105,7 +105,7 @@ def update_fine_amounts(training_fine, training_loss_fine, late_fine):
     """Update the fine amounts in app_config.py"""
     try:
         # Read current config
-        config_file = "/Users/linus/Downloads/Spond-main/app_config.py"
+        config_file = "app_config.py"
         with open(config_file, 'r', encoding='utf-8') as f:
             lines = f.readlines()
         
